@@ -14,12 +14,12 @@ edit config file `src/config/adapter.js`, add options:
 ```js
 const laytpl = require('think-view-laytpl');
 exports.view = {
-  type: 'laytpl',
-  common: {
-    viewPath: path.join(think.ROOT_PATH, 'view'),
-    extname: '.html',
-    sep: '_' //seperator between controller and action
-  },
+	type: 'laytpl',
+	common: {
+		viewPath: path.join(think.ROOT_PATH, 'view'),
+		extname: '.html',
+		sep: '_' //seperator between controller and action
+	},
 	laytpl: {
 		handle: laytpl,
 		options: {
