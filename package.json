@@ -1,9 +1,9 @@
 {
-	"name": "thinkjs-view-laytpl",
+	"name": "think-view-laytpl",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"author": "yoder <yoder@163.com>",
+	"author": "aspic <yoder@163.com>",
 	"license": "MIT",
 	"repository": "",
 	"dependencies": {
