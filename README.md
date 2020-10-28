@@ -23,10 +23,10 @@ exports.view = {
 	laytpl: {
 		handle: laytpl,
 		options: {
-			open: '{{',		//分隔符-开始
+			open: '{{',	//分隔符-开始
 			close: '}}',	//分隔符-结束
 			cache: false,	//是否缓存
-			min: true		  //是否开启压缩
+			min: true	//是否开启压缩
 		}
 	}
 }
